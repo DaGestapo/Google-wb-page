@@ -1,0 +1,237 @@
+body {
+    background-color: #202124;
+    margin: 0px;
+}
+
+.container {
+    height: 60px;
+}
+
+.container > div {
+    width: 275px;
+    height: 44px;
+    float: right;
+    margin: 2px;
+    padding: 2.5px;
+}
+
+.imgContainer{
+    padding: 4px;
+    float: right;
+}
+
+.imgContainer > img {
+    height: 36px;
+}
+
+#menu {
+    padding-right: 7px;
+    filter:  brightness(0) invert(1);
+}
+
+.link {
+    padding: 11px;
+    padding-left: 20px;
+    float: left;
+    width: 150px;
+}
+
+.link > a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    padding-left: 16px;
+    color: white;
+}
+
+.link > a:hover {
+    text-decoration: underline
+}
+
+
+#google {
+    flex: auto;
+    height: 90px;
+    color:white;
+    text-align: center;
+}
+
+#google > h1 {
+    font-family: arial,sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+}
+
+#inputBox {
+    display: flex;
+    justify-content: center;
+
+}
+
+    
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search > div {
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: #5f6368;;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    height: 40px;
+    width: 600px;
+
+    display: flex;
+}
+
+.search > div:hover {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #484A4E;
+}
+
+.search > div > input {
+    background-color: transparent;
+    border: none;
+    width: 450px;
+    color:white;
+}
+
+.search > div > input:focus {
+    outline: none;
+}
+
+#srcImg { 
+    height: 35px;
+    width:35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#srcImg > img {
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+    filter:  brightness(1) invert(1);
+}
+
+#keybord {
+    width: 90px;
+    display: flex;
+    justify-content: right;
+}
+
+#keyb {
+    margin-top: 9px;
+}
+
+.buttonPlace {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonPlace > div {
+    margin-top: 10px;
+}
+
+.buttonPlace > div > input {
+    background-color: #303134;
+    height: 35px;
+    border: 1px solid #303134;
+    border-radius: 5px;
+    margin: 20px;
+    width: 130px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size:small;
+
+}
+
+.buttonPlace > div > input:hover {
+    border-color: #5f6368;;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.message {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.message > a {
+    color: #bdc1c6;
+    white-space: pre;
+}
+
+#BelId {
+    color: #8ab4f8;
+}
+
+.blank {
+    height: 225px;
+}
+
+.futer {
+    background-color: #171717;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.upper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upper > div {
+    font-family: arial,sans-serif;
+    padding: 15px 37px;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+
+
+.futterA {
+    font-family: arial,sans-serif;
+    color: #9aa0a6;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+@media (min-width: 660px) {
+    .leftSide {
+        padding: 15px 30px;
+        float:left;
+    }
+    
+    .rightSide {
+        padding: 15px 30px;
+        float:right;
+    }
+
+    .boot {
+        border-top:1px solid #3c4043;
+        /*height: 60px; */
+        background-color: #171717;
+        height: 60px;
+    
+    }
+    
+}
+
+@media (max-width: 661px) {
+    .boot {
+        border-top:1px solid #3c4043;
+        /*height: 60px; */
+        background-color: #171717;
+        height: 100px;
+    
+    }
+}
