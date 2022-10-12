@@ -140,6 +140,11 @@ body {
     margin-top: 10px;
 }
 
+
+.buttonPlace > form > div {
+    margin-top: 10px;
+}
+
 .buttonPlace > div > input {
     background-color: #303134;
     height: 35px;
@@ -152,8 +157,27 @@ body {
     font-size:small;
 
 }
+.buttonPlace > form > div > input {
+    background-color: #303134;
+    height: 35px;
+    border: 1px solid #303134;
+    border-radius: 5px;
+    margin: 20px;
+    width: 130px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size:small;
+
+}
+
 
 .buttonPlace > div > input:hover {
+    border-color: #5f6368;;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.buttonPlace > form > div > input:hover {
     border-color: #5f6368;;
     border-width: 1px;
     border-style: solid;
